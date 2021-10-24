@@ -1,0 +1,131 @@
+body{
+    background-color: #FFFFFF;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+
+}
+ nav .column ul li {
+    list-style: none;
+    display: inline;
+    padding: 50px;
+
+}
+nav .column ul li a{
+    text-decoration: none;
+    font-weight: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+nav img{
+    position: absolute; 
+    width: 100px;
+    height: 100px;
+    left: -2px;
+    top: 0px;
+}
+.page{
+background-color: #F89B1C;
+display: flex;
+justify-content: space-between;
+border-radius: 60px;
+margin: auto;
+}
+.page h1{
+    color:#FFFFFF;
+    font-family: Roboto;
+}
+.home{
+    position: relative;
+
+}
+button{
+    background-color: #A6CE39; 
+    color: #FFFFFF;
+    font-size: 20px;
+ }
+ .row{
+    display: flex;
+    justify-content: space-between;
+}
+.worker{
+   padding-top: -400px; 
+}button{
+    background-color: #A6CE39; 
+    color: #FFFFFF;
+    font-size: 20px;
+ }
+ .about h1{
+     background-image: url(images/Rectangle\ 5.png);
+     background-size: 400px 400px;
+     background-repeat: no-repeat;
+ }
+ .main{
+    background-color:#E5E5E5;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px 20px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+.Chicken{
+    display: flex;
+    justify-content: space-between;
+}
+ .row-2{
+    display: flex;
+    justify-content: space-between;
+}
+.Chicken-2{
+    display: flex;
+    justify-content: space-between;
+}
+.item-1{
+   border-radius:5%; 
+   text-align: center;
+   margin: 6% 2% 0px 0px;
+   padding: 4%;
+  box-shadow: gray 0px 4px 4px 2px;
+}
+.item-2{
+    border-radius:5%; 
+    text-align: center;
+    margin: 6% 2% 0px 0px;
+    padding: 4%;
+    box-shadow: gray 0px 4px 4px 2px;
+ }
+button{
+    background-color: #F89B1C;
+    border-radius: 5%;
+    color: #E5E5E5;
+    font-size: 20px;
+}
+h2{
+    color: #A6CE39;
+    font-weight: bold;
+}
+.menu{
+    background-image: url(images/Rectangle\ 15.png);
+    text-decoration: underline overline;
+}
+.contact{
+    background-image: url(images/Rectangle\ 21.png);
+    background-repeat: no-repeat;
+    height: fit-content;
+    text-align: center;
+    text-decoration: underline overline;
+}
+h2{
+    color: #A6CE39;
+    text-decoration: underline;
+}
+.column img{
+    position: absolute; 
+    width: 100px;
+    height: 100px;
+    left: -2px;
+    top: 0px;
+}
