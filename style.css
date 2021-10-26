@@ -1,6 +1,16 @@
 body{
     background-color: #FFFFFF;
 }
+.header{
+    display: flex;
+    text-align: right;
+    background-color: #F89B25;
+}
+.header img{
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
 nav {
     display: flex;
     justify-content:space-between;
@@ -23,7 +33,7 @@ nav img{
     width: 100px;
     height: 100px;
     left: -2px;
-    top: 0px;
+    top: 5px;
 }
 .page{
 background-color: #F89B1C;
