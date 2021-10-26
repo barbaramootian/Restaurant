@@ -14,15 +14,13 @@
     <p>We're Open Monday Through Friday 10:30am to 2:30pm </p>
   </div>
     <nav>
-        <div class="column">
-            <img src="images/logo 1.png">
+           <img src="images/logo 1.png">
           <ul>
             <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="ourmenu.html">Our Menu</a></li>
-             <li><a href="contact.html">Contact Us</a></li>
-           </ul>
-          </div>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+             <li><a href="#contactus">Contact Us</a></li>
+          </ul>
     </nav>
     <div class="page">
        <div class="homepage"> 
@@ -36,7 +34,7 @@
          </div>
          <div class="home"><img src="images/home.png"></div>
      </div>
-
+    <div id="about">
      <h1 class="about">About Us</h1>
      <div class="row">
        <h2> Who are we?</h2>
@@ -56,11 +54,15 @@
           <img class="worker"src="images/worker .png"> 
          </div>
           <button>Learn more</button>
-          <h1 class="menu">Menu</h1>
+        </div>
+
+         <div id="menu">
+         <div class="menu">
+           <h1 >Menu</h1>
+        </div>
           <h2>Our Section</h2>
           <div class="main">
           <h3>SeaFoad</h3>
-         
            <div class="items">
            <div class="item-1">
             <img src="images/menu1.png">
@@ -184,16 +186,21 @@
                                     <button>Order Now</button>
                                     </div>
                                   </div>
+                          </div>
                         </div>
                        
-                       
-             <h1 class="contact"> Contact</h1>
+                    
+             <div id="contactus"> 
+               <div class="contact"> 
+                <h1>Contact</h1>
+                </div>
                 <h2>Connect with us</h2>
-               <form action="/action_page.php">
-               <label for="fname">First name:</label><br>
-               <input type="text" id="fname" name="fname"><br>
-               <label for="Email">Email Adress:</label><br>
-               <input type="text" id="Email" name="Email"><br><br>
-              </form>
+                <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="Email">Email Adress:</label><br>
+                <input type="text" id="Email" name="Email"><br><br>
+                </form>
+            </div> 
 </body>
 </html>

@@ -3,8 +3,10 @@ body{
 }
 .header{
     display: flex;
-    text-align: right;
+    justify-content: space-between;
     background-color: #F89B25;
+    padding: 5% 10%;
+    color: white;
 }
 .header img{
     height: 30px;
@@ -14,27 +16,21 @@ body{
 nav {
     display: flex;
     justify-content:space-between;
-
+    width: 95%;
 }
- nav .column ul li {
+ nav  ul li {
     list-style: none;
     display: inline;
     padding: 50px;
 
 }
-nav .column ul li a{
+nav ul li a{
     text-decoration: none;
     font-weight: 50px;
     text-transform: uppercase;
     font-size: 20px;
 }
-nav img{
-    position: absolute; 
-    width: 100px;
-    height: 100px;
-    left: -2px;
-    top: 5px;
-}
+
 .page{
 background-color: #F89B1C;
 display: flex;
@@ -120,13 +116,35 @@ h2{
 .menu{
     background-image: url(images/Rectangle\ 15.png);
     text-decoration: underline overline;
+    text-decoration-color: #F89B1C;
+    height: 50vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu h1{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-size: 100px;
+    color: white;
 }
 .contact{
     background-image: url(images/Rectangle\ 21.png);
     background-repeat: no-repeat;
-    height: fit-content;
     text-align: center;
+    height: 50vh;
+    width: 100%;
     text-decoration: underline overline;
+    background-size: cover;
+    text-decoration-color: #F89B1C;
+}
+.contact h1{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    font-size: 100px;
+    color: white;
 }
 h2{
     color: #A6CE39;
