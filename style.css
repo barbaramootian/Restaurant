@@ -260,13 +260,13 @@ h2 span{
     text-decoration: underline;
     text-decoration-color: #A6CE39;
 }
-.column img{
+/* .column img{
     position: absolute; 
     width: 100px;
     height: 100px;
     left: -2px;
     top: 0px;
-}
+} */
 h3{
     text-align: center;
     color: #A6CE39;
